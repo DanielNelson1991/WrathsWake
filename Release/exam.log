@@ -1,0 +1,16 @@
+﻿Build started 30/04/2015 18:50:40.
+     1>Project "C:\Users\Daniel\Desktop\Wrath's Wake\exam.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         A:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release/exam.pch" /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp
+         Camera.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\daniel\desktop\wrath's wake\input.h(14): warning C4005: 'DIRECTINPUT_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42) : see previous definition of 'DIRECTINPUT_VERSION'
+     1>Camera.cpp(336): error C2039: 'Jump' : is not a member of 'CCamera'
+                 c:\users\daniel\desktop\wrath's wake\Camera.h(9) : see declaration of 'CCamera'
+     1>Camera.cpp(338): error C2065: 'm_fY' : undeclared identifier
+     1>Done Building Project "C:\Users\Daniel\Desktop\Wrath's Wake\exam.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.35
